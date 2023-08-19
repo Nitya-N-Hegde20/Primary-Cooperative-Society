@@ -1,0 +1,69 @@
+Number of tables
+  LINK
+
+HOME->ADMIN.php,LOGIN.php,REGI.php,CONTACT.php,LEARN MORE.php
+
+ADMIN->HOME.html,DASBO.php
+
+DASBO->product.php,customer_details.php,insert.php,PROD.php,view.php,pro_det,team.php,msg.php,admin.php
+
+product.php->pro_up.php,delete_pro.php
+
+pro_up.php->product.php
+
+delete_pro.php->product.php
+
+customer_details.php->updated.php,delete.php
+updated.php->customer_details.php
+delete.php->customer_details.php
+
+insert.php->dasbo.php
+
+
+PROD.php->dasbo.php
+
+view.php->
+
+pro_det->success.php
+
+success.php->dasbo.php
+
+team.php->
+
+msg.php->
+
+
+login.php->disp.php,HOME.html,login.php
+
+disp.php->custdis.php
+
+custdis.php->dis.php
+
+
+
+regi.php->HOME.html
+
+contact.php->HOME.html
+
+about.php->read.php
+
+
+TRIGGER-APPLIED TO PRODUCT TABLE,STORED IN trig,DISPLAYED IN DASHBOARD
+
+NESTED QUERY-dis.php--inorder to see the product alloted and its price
+
+INNER JOIN-view.php--displayed in view table--Inorder to see the details of customer for whom which product is alloted 
+
+
+feedback is in contact.php
+
+
+
+
+
+
+
+
+
+
+
